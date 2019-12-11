@@ -21,8 +21,8 @@ weatherConditions.onload = function() {
         document.getElementById('desc').innerHTML="Wind speed: "+cObj.wind.speed+"m/s";
         document.getElementById('weather').innerHTML=cObj.weather[0].description;
 
-    } //end if
-}; //end function
+    } 
+}; 
 
 
 
@@ -78,7 +78,7 @@ var icon_path = "http://openweathermap.org/img/w/" +iconcode+ ".png";
 document.getElementById('r3c2').src = icon_path;
 document.getElementById('r3c3').innerHTML = fObj.list[0].main.temp_min+"&deg;";
 document.getElementById('r3c4').innerHTML = fObj.list[0].main.temp_max+"&deg;";
-} //end if
-}; //end function
+} 
+};
 
 
